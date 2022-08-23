@@ -1,0 +1,36 @@
+.Dictionary {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  padding: 30px;
+  color: #464646;
+  margin: 40px 0;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.search-button {
+  background: #ece2df;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 5px 25px;
+  border: none;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+}
+
+.word-search {
+  flex: 1;
+  font-size: 16px;
+  border: thin solid darkgrey;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.word-search,
+.search-button {
+  margin: 0 5px;
+}

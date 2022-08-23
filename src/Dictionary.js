@@ -23,6 +23,8 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
+      <h2>Dictionary</h2>
+      <br />
       <div className="Search row">
         <form onSubmit={search}>
           <input
@@ -35,6 +37,7 @@ export default function Dictionary() {
           <input type="submit" value="Search" className="col-2 search-button" />
         </form>
       </div>
+      <br />
       <Results results={results} />
     </div>
   );

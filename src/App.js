@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Dictionary />
+        <Dictionary defaultKeyword="geometry" />
         <footer>
           <a
             href="https://github.com/tvuleta8/react-dictionary-app"
